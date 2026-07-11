@@ -64,3 +64,10 @@ src/
 ## Licença
 
 MIT.
+
+## Rodando com Docker
+
+```bash
+docker build -t whatsapp-agent-bridge .
+docker run --env-file .env -p 3000:3000 whatsapp-agent-bridge
+```
