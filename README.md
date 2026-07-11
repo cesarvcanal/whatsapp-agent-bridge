@@ -1,5 +1,7 @@
 # WhatsApp → Claude Agent bridge
 
+![ci](https://github.com/cesarvcanal/whatsapp-agent-bridge/actions/workflows/ci.yml/badge.svg)
+
 Esqueleto de referência pra **comandar um agente Claude pelo WhatsApp**: mensagem chega no seu número, vira sessão de um agente (Claude Agent SDK), e a resposta volta pelo WhatsApp — com allowlist, deduplicação e uma fila por conversa.
 
 > Contexto: eu opero uma empresa por mensagem. Relatórios, tarefas, consultas a sistemas — tudo passa por agentes acessíveis no WhatsApp. Este repo é a versão mínima e aberta desse padrão: um bridge seguro entre um provedor de WhatsApp API e o Claude Agent SDK.
